@@ -43,7 +43,7 @@ mvn clean compile assembly:single
 ```
 Then you can run the following to start the webapp:
 ```
-$ java -cp target/orient-frontend-1.0-SNAPSHOT-jar-with-dependencies.jar net.orient.demo.App -p orient.properties
+$ java -cp target/orient-frontend-1.0-SNAPSHOT-jar-with-dependencies.jar net.orient.demo.App -p orient.properties -l links.csv
 ```
 This properties file must have the following properties defined:
 ```
@@ -51,4 +51,6 @@ orient.url=remote:localhost/Identity
 user.name=<userName>
 user.pw=<userPassword>
 ```
+The "links.csv" file is an optional parameter with localID associations (i.e. "id1,id2,id3" means that these three id's should all have the same universal-id)
 In this example, our database is named "Identity".  Obviously, you can set the username and pw to whatever you like.  By default, username=admin, and pw=admin, should work for a newly created database.
+After starting the webapp, simple go to [localhost:8085](http://localhost:8085) to see the webapp work.
