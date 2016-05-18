@@ -53,4 +53,4 @@ user.pw=<userPassword>
 ```
 The "links.csv" file is an optional parameter with localID associations (i.e. "id1,id2,id3" means that these three id's should all have the same universal-id)
 In this example, our database is named "Identity".  Obviously, you can set the username and pw to whatever you like.  By default, username=admin, and pw=admin, should work for a newly created database.
-After starting the webapp, simple go to [localhost:8085](http://localhost:8085) to see the webapp work.
+After starting the webapp, simply go to [localhost:8085](http://localhost:8085) to see the webapp work.
