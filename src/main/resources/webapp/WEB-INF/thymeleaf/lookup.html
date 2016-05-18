@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resolved ID</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../resources/actions.js"></script>
+</head>
+<body>
+<div class="well well-lg">
+    <h3>ID Resolution for Local ID: <span th:text="${localId}"></span></h3>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3>Person ID</h3>
+
+        <div class="col-md-12"><span th:text="${universalId}"></span></div>
+    </div>
+</div>
+
+</body>
+</html>
