@@ -51,4 +51,4 @@ orient.url=remote:localhost/Identity
 user.name=<userName>
 user.pw=<userPassword>
 ```
-In this example, our database is named "Identity".  Obviously, you can set the username and pw to whatever you like.
+In this example, our database is named "Identity".  Obviously, you can set the username and pw to whatever you like.  By default, username=admin, and pw=admin, should work for a newly created database.
