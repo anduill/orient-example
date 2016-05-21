@@ -32,7 +32,7 @@ Once you get the console up and running, the following databases need to be crea
 
 You can create a database as follows (in the console)
 ```
-create database PLOCAL:/Users/dgarcia/databases/IdentityUnitTest
+create database PLOCAL:<ORIENT_DB_HOME>/databases/IdentityUnitTest
 ```
 This command will create an "IdentityUnitTest" database and log you into it.  This database is required for the unit tests to run.
 At this point, you have to exit out of the database (or quit the console) to run the unit tests.  Default mode doesn't allow connections

@@ -14,7 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.springframework.version>4.1.2.RELEASE</org.springframework.version>
         <jetty.version>8.1.8.v20121106</jetty.version>
-        <thymeleaf.version>2.1.4.RELEASE</thymeleaf.version>
+        <orient.enterprise.version>2.2.0-beta</orient.enterprise.version>
+	<orient.version>2.2.1-SNAPSHOT</orient.version>
+	<thymeleaf.version>2.1.4.RELEASE</thymeleaf.version>
         <yammer.metrics.version>2.2.0</yammer.metrics.version>
         <compiler.pluginVersion>3.2</compiler.pluginVersion>
     </properties>
@@ -103,25 +105,25 @@
         <dependency>
             <groupId>com.orientechnologies</groupId>
             <artifactId>orientdb-graphdb</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
+            <version>${orient.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.orientechnologies</groupId>
             <artifactId>orientdb-core</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
+            <version>${orient.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.orientechnologies</groupId>
             <artifactId>orientdb-client</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
+            <version>${orient.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.orientechnologies</groupId>
             <artifactId>orientdb-enterprise</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
+            <version>${orient.enterprise.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
