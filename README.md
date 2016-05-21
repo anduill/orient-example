@@ -7,7 +7,12 @@ There are a few steps needed to get the web-app running.
 ## Install and start OrientDB
 
 The following link can be referenced for a quick way to get the DB installed: [OrientInstall](http://orientdb.com/docs/2.2/Tutorial-Installation.html)
-I recommend checking out the project and building yourself (this web app uses a snapshot version of the client)
+I recommend checking out the project and building yourself (this web app uses a snapshot version of the client, so the SNAPSHOT will most likely not be available in public repos)
+
+When building the project make sure to skip tests:
+```
+mvn clean install -DskipTests=true
+```
 
 Here are some instructions for configuring OrientDB for your environment [OrientConfigure](http://orientdb.com/docs/2.2/Unix-Service.html)
 I used the Mac alias option.  So the remainder of this README will use that syntax.
